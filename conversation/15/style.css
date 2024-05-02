@@ -1,0 +1,96 @@
+@font-face {
+    font-family: KT;
+    src: url(/font/KhaoNiawThin.ttf);
+}
+  
+body {
+    font-family: KT;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url("./back.png");
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+    font-size: 190%;
+    /* background-position: bottom 0px left 0px; */
+    color: rgb(0, 0, 0);
+    margin: 0;
+    /* backdrop-filter: blur(1px); */
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+}
+
+.actions button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 6px;
+    background-color: hsl(36, 100%, 50%);
+    color: #fff;
+    align-items: center;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 30px;
+    box-shadow: 5px 5px 1px 4px rgb(181, 63, 0);
+}
+.container{
+    top: 53%;
+    z-index: 9;
+    position: absolute;
+    margin: 0 2% ;
+}
+#userName{
+    margin: 10px 33px ;
+    max-width: 40vw;
+    text-align: center;
+    border-radius: 50px;
+    padding: 10px 0 ;
+    color: #fff;
+    margin-top: 15% ;
+    top: 10%;
+    margin-bottom: -35px ;
+    margin-left: 80px ;
+    position: relative;
+    background-color: #505050;
+    display: none;
+}
+#userText{
+    background-color: #ffffff;
+    height: auto;
+    padding: 40px 10px 20px 10px  ;
+    width: 90vw;
+    margin: 20px 33px ;
+    text-align: center;
+    margin: auto;   
+    border-radius: 50px;
+    border: #505050 10px solid;
+}
+.char {
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+.userName, .userText {
+    font-size: 24px; /* Increase the font size of the text */
+    margin-bottom: 10px; /* Add margin between the text  */
+}
+
+.char img {
+    width: 370px; /* Adjust the width of the character images */
+    height: auto; /* Automatically adjust height while maintaining aspect ratio */
+    margin: 10px;
+
+}
+
+#villagerImg{
+
+}
